@@ -1,0 +1,9 @@
+.game-boy {
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  width: 422px;
+  height: 697px;
+  background-color: #eee;
+  border-radius: 10px 10px 60px 10px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1); }

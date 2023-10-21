@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
+        <link href="node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
+        <link href="node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+    
+        <title>Game Boy</title>
+    </head>
+
+    <body>
+        <div id="power-on" class="game-boy">
+            <div class="game-boy__screen">
+                <div class="game-boy__screen--power">
+                    <div class="game-boy__screen--power-circles">
+                        <div class="circle-red"></div>
+                        <div class="circle-gray"></div>
+                        <div class="circle-gray"></div>
+                        <div class="circle-gray"></div>
+                    </div>
+                    <span class="lettering-power">POWER</span>
+                </div>
+                <div class="game-boy__screen--display">
+                    <video width="266" height="200" controls autoplay>
+                        <source src="img/pocket-designer-video.mp4" type="video/mp4">
+                      </video>
+                </div>
+                <div class="game-boy__label">
+                    <div class="game-boy__label--gameboy">GAME BOY</div>
+                    <div class="game-boy__label--color">
+                        <span class="game-boy__label--color-c">C</span>
+                        <span class="game-boy__label--color-o">O</span>
+                        <span class="game-boy__label--color-l">L</span>
+                        <span class="game-boy__label--color-o2">O</span>
+                        <span class="game-boy__label--color-r">R</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-boy__nintendo">
+                <p class="game-boy__nintendo--logo">Nintendo®</p>
+            </div>
+
+            <!-- controllers -->
+            <div class="game-boy__controllers">
+
+                <div class="game-boy__controllers--dpad">
+                    <div class="game-boy__controllers--top-down">
+                        <div class="game-boy__controllers--top-down--top">
+                            <div class="game-boy__controllers--top-down--top-icon">
+                                <i class="fa-solid fa-caret-up"></i>
+                            </div>
+                        </div>
+                        <div class="game-boy__controllers--top-down--bottom">
+                            <div class="game-boy__controllers--top-down--bottom-icon">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="game-boy__controllers--left-right">
+                        <div class="game-boy__controllers--left-right--right">
+                            <div class="game-boy__controllers--left-right--right-icon">
+                                <i class="fa-solid fa-caret-right"></i>
+                            </div>
+                        </div>
+                        <div class="game-boy__controllers--left-right--left">
+                            <div class="game-boy__controllers--left-right--left-icon">
+                                <i class="fa-solid fa-caret-left"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="game-boy__controllers--center">
+                        <div class="game-boy__controllers--center-circle" id="red-circle">                         
+                        </div>
+                    </div>  
+
+                </div>
+
+
+
+                <div class="game-boy__controllers--buttons-ab">
+                    <button class="game-boy__controllers--buttons-ab-b">
+                        <div class="letter-b">B</div>
+                    </button>
+                    <button class="game-boy__controllers--buttons-ab-a">
+                        <div class="letter-a">A</div>
+                    </button>
+                </div>
+
+                <div class="game-boy__controllers--ss">
+                    <div class="game-boy__controllers--ss-select">
+                        <button class="select"></button>
+                        <p class="p-select">SELECT</p>                   
+                    </div> 
+                    
+                    <div class="game-boy__controllers--ss-start">
+                        <button class="start"></button>
+                        <p class="p-start">START</p>    
+                    </div>
+
+                </div>
+
+                <div class="game-boy__speaker">
+                    <div class="game-boy__speaker--row">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="game-boy__speaker--row">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="game-boy__speaker--row">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="game-boy__speaker--row">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="game-boy__speaker--row">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="game-boy__speaker--row">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="game-boy__speaker--row">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="game-boy__speaker--row">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+
+                <!-- on off button -->
+                <div class="on-button">
+                    <a href="#power-on">
+                     
+                    </a>
+                </div>
+
+                <div class="off-button">
+                    <a href="#power-off">
+                     
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
