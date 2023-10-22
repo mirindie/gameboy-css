@@ -43,17 +43,7 @@
     width: 370px;
     height: 307px;
     background-color: #283136;
-    border-radius: 7px;
-    /* &::after {
-            background-color: $color-secondary;
-            border-radius: 50%;
-            bottom: -21px;
-            content: "";
-            height: 50px;
-            left: 0;
-            position: absolute;
-            width: 100%;
-        }*/ }
+    border-radius: 7px; }
     .game-boy__screen--power {
       width: 14%;
       height: 25px;
@@ -408,18 +398,28 @@
     .game-boy .on-button a {
       display: block;
       background-color: #283136;
-      width: 20px;
-      height: 20px; }
+      width: 10px;
+      height: 36px;
+      position: absolute;
+      left: 5px;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px; }
   .game-boy .off-button {
     display: none;
     position: absolute;
     top: 14%;
-    left: 99%; }
+    left: 99%;
+    transition: all .3s; }
     .game-boy .off-button a {
       display: block;
-      background-color: green;
-      width: 20px;
-      height: 20px; }
+      background-color: #283136;
+      width: 10px;
+      height: 36px;
+      position: absolute;
+      left: 5px;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      transform: translateY(10px); }
   .game-boy .switch {
     display: inline-block;
     width: 31px;

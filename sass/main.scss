@@ -1,9 +1,12 @@
 $color-primary: #a5f004;
 $color-dark-shadow: #567e00;
+$color-gameboy-border: #d4ff78;
 $color-secondary: #283136;
 $color-display: #929d97;
 $color-gameboy-title: #67879a;
 $color-gameboy-controls: #303030;
+
+
 
 * {
     box-sizing: border-box;
@@ -47,7 +50,7 @@ $color-gameboy-controls: #303030;
     background-color: $color-primary;
     border-radius: 20px;
     box-shadow: 0px -2px 7px 2px $color-dark-shadow;
-    border-top: 3px solid #d4ff78;
+    border-top: 3px solid $color-gameboy-border;
     
     &::after {
         background-color: $color-primary;
@@ -59,7 +62,7 @@ $color-gameboy-controls: #303030;
         position: absolute;
         width: 100%;
         box-shadow: 0px 5px 0px 0px $color-dark-shadow;
-        border-bottom: 6px solid #d4ff78;
+        border-bottom: 6px solid $color-gameboy-border;
     }
 
     &__screen {
@@ -69,7 +72,7 @@ $color-gameboy-controls: #303030;
         margin: 0 auto;
         width: 370px;
         height: 307px;
-        background-color: #283136;
+        background-color: $color-secondary;
         border-radius: 7px;
 
         &--power {
@@ -86,7 +89,7 @@ $color-gameboy-controls: #303030;
                 
                 div.circle-red {
                     display: inherit;
-                    background-color: #283136;
+                    background-color: $color-secondary;
                     width: 8px;
                     height: 8px;
                     border-radius: 50%;
@@ -94,7 +97,7 @@ $color-gameboy-controls: #303030;
                 }
 
                 div.circle-gray {
-                    background-color: #283136;
+                    background-color: $color-secondary;
                     width: 8px;
                     height: 8px;
                     border-radius: 50%;
@@ -109,17 +112,7 @@ $color-gameboy-controls: #303030;
 
             }
         }
-
-       /* &::after {
-            background-color: $color-secondary;
-            border-radius: 50%;
-            bottom: -21px;
-            content: "";
-            height: 50px;
-            left: 0;
-            position: absolute;
-            width: 100%;
-        }*/ 
+ 
 
         &--display {
             position: absolute;
@@ -196,7 +189,7 @@ $color-gameboy-controls: #303030;
         top: 53%;
         left: 50%;
         transform: translate(-50%, -50%);
-        text-shadow: 0 -2px 1px #d4ff78;
+        text-shadow: 0 -2px 1px $color-gameboy-border;
         box-shadow: 0 0 0 1px #d4ff78;
 
         &--logo {
@@ -559,9 +552,13 @@ $color-gameboy-controls: #303030;
 
         a {
             display: block;
-            background-color: #283136;
-            width: 20px;
-            height: 20px;
+            background-color: $color-secondary;
+            width: 10px;
+            height: 36px;
+            position: absolute;
+            left: 5px;
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
         }
     }
 
@@ -570,12 +567,18 @@ $color-gameboy-controls: #303030;
         position: absolute;
         top: 14%;
         left: 99%;
+        transition: all .3s;
 
         a {
             display: block;
-            background-color: green;
-            width: 20px;
-            height: 20px;
+            background-color: $color-secondary;
+            width: 10px;
+            height: 36px;
+            position: absolute;
+            left: 5px;
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            transform: translateY(10px);
         }
     }
 
