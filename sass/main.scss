@@ -60,6 +60,7 @@ $bp-very-small: 37.5em; // 680px;
 
     @media only screen and (max-width: $bp-very-small) {
        width: 365px;
+       height: 647px;
     }
 
     
@@ -216,6 +217,10 @@ $bp-very-small: 37.5em; // 680px;
         transform: translate(-50%, -50%);
         text-shadow: 0 -2px 1px $color-gameboy-border;
         box-shadow: 0 0 0 1px #d4ff78;
+
+        @media only screen and (max-width: $bp-very-small) {
+            width: 55%;
+         }
 
         &--logo {
             display: inherit;
