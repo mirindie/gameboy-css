@@ -58,10 +58,6 @@ $bp-very-small: 37.5em; // 680px;
     box-shadow: 0px -2px 7px 2px $color-dark-shadow;
     border-top: 3px solid $color-gameboy-border;
 
-    @media only screen and (max-width: $bp-very-small) {
-       width: 365px;
-       height: 614px;
-    }
 
     
     &::after {
@@ -87,9 +83,6 @@ $bp-very-small: 37.5em; // 680px;
         background-color: $color-secondary;
         border-radius: 7px;
 
-        @media only screen and (max-width: $bp-very-small) {
-            width: 344px;
-         }
      
 
         &--power {
@@ -100,9 +93,6 @@ $bp-very-small: 37.5em; // 680px;
             top: 20%;
             padding: 5px;
 
-            @media only screen and (max-width: $bp-very-small) {
-                width: 12%;
-             }
          
 
             &-circles {
@@ -132,9 +122,6 @@ $bp-very-small: 37.5em; // 680px;
                 font-size: 12px;
                 color: #67879a;
 
-                @media only screen and (max-width: $bp-very-small) {
-                    font-size: 9px;
-                 }
 
             }
         }
@@ -218,9 +205,6 @@ $bp-very-small: 37.5em; // 680px;
         text-shadow: 0 -2px 1px $color-gameboy-border;
         box-shadow: 0 0 0 1px #d4ff78;
 
-        @media only screen and (max-width: $bp-very-small) {
-            width: 58%;
-         }
 
         &--logo {
             display: inherit;
@@ -367,10 +351,6 @@ $bp-very-small: 37.5em; // 680px;
             left: 64%;
             transform: rotate(-25deg);
 
-            @media only screen and (max-width: $bp-very-small) {
-                width: 106px;
-                top: 61%;
-             }
             
             &-b {
                 all: unset;
@@ -446,10 +426,6 @@ $bp-very-small: 37.5em; // 680px;
             left: 50%;
             transform: translate(-50%, -50%);
             display: flex;
-
-            @media only screen and (max-width: $bp-very-small) {
-                top: 95%;
-             }
 
             &-select {
                 width: 50%;

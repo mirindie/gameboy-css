@@ -24,10 +24,6 @@
   border-radius: 20px;
   box-shadow: 0px -2px 7px 2px #567e00;
   border-top: 3px solid #d4ff78; }
-  @media only screen and (max-width: 37.5em) {
-    .game-boy {
-      width: 365px;
-      height: 614px; } }
   .game-boy::after {
     background-color: #a5f004;
     border-radius: 55%;
@@ -48,9 +44,6 @@
     height: 307px;
     background-color: #283136;
     border-radius: 7px; }
-    @media only screen and (max-width: 37.5em) {
-      .game-boy__screen {
-        width: 344px; } }
     .game-boy__screen--power {
       width: 14%;
       height: 25px;
@@ -58,9 +51,6 @@
       position: absolute;
       top: 20%;
       padding: 5px; }
-      @media only screen and (max-width: 37.5em) {
-        .game-boy__screen--power {
-          width: 12%; } }
       .game-boy__screen--power-circles {
         display: flex;
         justify-content: space-around; }
@@ -81,9 +71,6 @@
         font-family: system-ui, sans-serif;
         font-size: 12px;
         color: #67879a; }
-        @media only screen and (max-width: 37.5em) {
-          .game-boy__screen--power span.lettering-power {
-            font-size: 9px; } }
     .game-boy__screen--display {
       position: absolute;
       width: 266px;
@@ -144,9 +131,6 @@
     transform: translate(-50%, -50%);
     text-shadow: 0 -2px 1px #d4ff78;
     box-shadow: 0 0 0 1px #d4ff78; }
-    @media only screen and (max-width: 37.5em) {
-      .game-boy .game-boy__nintendo {
-        width: 58%; } }
     .game-boy .game-boy__nintendo--logo {
       display: inherit;
       text-align: center;
@@ -254,10 +238,6 @@
     top: 57%;
     left: 64%;
     transform: rotate(-25deg); }
-    @media only screen and (max-width: 37.5em) {
-      .game-boy .game-boy__controllers--buttons-ab {
-        width: 106px;
-        top: 61%; } }
     .game-boy .game-boy__controllers--buttons-ab-b {
       all: unset;
       cursor: pointer;
@@ -318,9 +298,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex; }
-    @media only screen and (max-width: 37.5em) {
-      .game-boy .game-boy__controllers--ss {
-        top: 95%; } }
     .game-boy .game-boy__controllers--ss-select {
       width: 50%;
       height: 100%; }
