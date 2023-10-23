@@ -13,9 +13,6 @@ $bp-medium: 50em; // 800px
 $bp-small: 42.5em; // 680px;
 $bp-very-small: 37.5em; // 680px;
 
-body {
-    padding: 3rem;
-}
 
 * {
     box-sizing: border-box;
@@ -60,6 +57,11 @@ body {
     border-radius: 20px;
     box-shadow: 0px -2px 7px 2px $color-dark-shadow;
     border-top: 3px solid $color-gameboy-border;
+
+    @media only screen and (max-width: $bp-very-small) {
+       width: 365px;
+    }
+
     
     &::after {
         background-color: $color-primary;
@@ -84,6 +86,11 @@ body {
         background-color: $color-secondary;
         border-radius: 7px;
 
+        @media only screen and (max-width: $bp-very-small) {
+            width: 344px;
+         }
+     
+
         &--power {
             width: 14%;
             height: 25px;
@@ -91,6 +98,11 @@ body {
             position: absolute;
             top: 20%;
             padding: 5px;
+
+            @media only screen and (max-width: $bp-very-small) {
+                width: 12%;
+             }
+         
 
             &-circles {
                 display:flex;
@@ -118,6 +130,10 @@ body {
                 font-family: system-ui, sans-serif;
                 font-size: 12px;
                 color: #67879a;
+
+                @media only screen and (max-width: $bp-very-small) {
+                    font-size: 9px;
+                 }
 
             }
         }
@@ -345,6 +361,10 @@ body {
             top: 57%;
             left: 64%;
             transform: rotate(-25deg);
+
+            @media only screen and (max-width: $bp-very-small) {
+                width: 106px;
+             }
             
             &-b {
                 all: unset;
