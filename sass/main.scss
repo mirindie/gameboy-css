@@ -13,7 +13,9 @@ $bp-medium: 50em; // 800px
 $bp-small: 42.5em; // 680px;
 $bp-very-small: 37.5em; // 680px;
 
-
+body {
+    padding: 3rem;
+}
 
 * {
     box-sizing: border-box;
@@ -156,15 +158,10 @@ $bp-very-small: 37.5em; // 680px;
 
         &--color {
             display: inline-block;
-            font-family: "Comic Sans MS", sans-serif;
+            font-family: 'Comic Sans MS', 'Comic Neue', cursive, sans-serif;
             font-weight: 700;
             font-size: 25px;
             letter-spacing: -6px;
-
-           @media only screen and (max-width: $bp-very-small) {
-            font-family: 'Comic Neue', "Comic Sans MS", cursive, sans-serif;
-            letter-spacing: -5px;
-           }
 
             &-c {
                 color: #DB3575;

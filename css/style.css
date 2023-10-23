@@ -1,3 +1,6 @@
+body {
+  padding: 3rem; }
+
 * {
   box-sizing: border-box; }
 
@@ -98,14 +101,10 @@
       font-size: 25px; }
     .game-boy__label--color {
       display: inline-block;
-      font-family: "Comic Sans MS", sans-serif;
+      font-family: 'Comic Sans MS', 'Comic Neue', cursive, sans-serif;
       font-weight: 700;
       font-size: 25px;
       letter-spacing: -6px; }
-      @media only screen and (max-width: 37.5em) {
-        .game-boy__label--color {
-          font-family: 'Comic Neue', "Comic Sans MS", cursive, sans-serif;
-          letter-spacing: -5px; } }
       .game-boy__label--color-c {
         color: #DB3575; }
       .game-boy__label--color-o {
