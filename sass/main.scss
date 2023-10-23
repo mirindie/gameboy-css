@@ -60,7 +60,7 @@ $bp-very-small: 37.5em; // 680px;
 
     @media only screen and (max-width: $bp-very-small) {
        width: 365px;
-       height: 647px;
+       height: 614px;
     }
 
     
@@ -219,7 +219,7 @@ $bp-very-small: 37.5em; // 680px;
         box-shadow: 0 0 0 1px #d4ff78;
 
         @media only screen and (max-width: $bp-very-small) {
-            width: 55%;
+            width: 58%;
          }
 
         &--logo {
@@ -369,6 +369,7 @@ $bp-very-small: 37.5em; // 680px;
 
             @media only screen and (max-width: $bp-very-small) {
                 width: 106px;
+                top: 61%;
              }
             
             &-b {
@@ -445,6 +446,10 @@ $bp-very-small: 37.5em; // 680px;
             left: 50%;
             transform: translate(-50%, -50%);
             display: flex;
+
+            @media only screen and (max-width: $bp-very-small) {
+                top: 95%;
+             }
 
             &-select {
                 width: 50%;
